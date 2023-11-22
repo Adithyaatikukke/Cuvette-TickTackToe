@@ -1,0 +1,95 @@
+.quote{
+    overflow: hidden;
+    width: 20vw;
+    height: 50vh;
+    background-color: #192a32;
+    border-radius: 7%;
+    position: absolute;
+    margin-top: 35vh;
+    margin-right: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f2b237;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.quote h3{
+    color: #31C4BE;
+    font-family: DM Sans, "san-serif";
+    margin-bottom: 200px;
+    margin-right: 10px;
+    position: fixed;
+}
+.quote .blue{
+    width: 30px;
+    height:30px;
+    border-radius: 50px;
+    margin-top: 40vh;
+    position: fixed;
+    background-color: white;
+}
+.quote .blue .group{
+    width: 15px;
+    padding-top: 7px;
+}
+.quote .random-quote{
+    width: 80%;
+    height: 50%;
+    color: #F2B237;
+    font-family: DM Sans, "san-serif";
+    overflow-y: scroll;
+}
+.quote .random-quote p{
+    font-size: 25px;
+    text-align: center;
+}
+.quote .random-quote::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+
+
+
+/* .quote .random-quote {
+        width: 80%;
+        height: 50%;
+        color: #F2B237;
+        overflow-y: scroll;
+        font-family: DM Sans, "san-serif";
+      }
+.quote .randomquote p{
+    font-size: 25px;
+    text-align: center;
+}
+.quote .random-quote::-webkit-scrollbar {
+    display: none;
+  }
+.quote h3{
+  color: #31C4BE;
+  font-family: DM Sans, "san-serif";
+  padding-top: 5vh;
+}
+.quote .blue{
+    width: 29px;
+    height: 29px;
+    flex-shrink: 0;
+    background-color: #31C4BE;
+    border-radius: 50px;
+    margin-left: 22vh;
+    margin-top: 30vh;
+}
+.quote .blue .group{
+    padding-left:1.5vh;
+    padding-top: 1vh;
+}
+.quote p{
+    color: white;
+} */
